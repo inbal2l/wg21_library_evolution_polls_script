@@ -1,4 +1,7 @@
-C++ Library Evolution polls for 2023-05.
+# WG21 Library Evolution Work Group Electronic Polls
 
-You can see a rendered copy of the current draft [here](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/brycelelbach/wg21_p2775_2023_05_library_evolution_polls/main/2023_05_library_evolution_polls.bs).
+This repo is used for generating LEWG electronic poll papers (thank you to [Bryce Adelstein Lelbach](https://github.com/brycelelbach) for creating it!).
+
+List of papers:
+1. C++ Library Evolution polls for 2023-09: [P2972R0](https://htmlpreview.github.io/?https://github.com/inbal2l/wg21_library_evolution_polls_script/blob/main/build/P2972R0_2023_09_library_evolution_polls.html).
 
