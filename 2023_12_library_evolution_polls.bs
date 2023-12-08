@@ -116,9 +116,9 @@ Send
   "[[P0876R14]] fiber_context - fibers without scheduler"
   to Library Working Group for C++26.
  
-### [[P0447R26]] Introduction of std::hive to the standard library (tentative, needs revision)
+### [[P0447R26]] Introduction of std::hive to the standard library
 Send
-  "[[P0447R26]] Introduction of std::hive to the standard library (tentative, needs revision)"
+  "[[P0447R26]] Introduction of std::hive to the standard library"
   to Library Working Group for C++26.
 
 ### [[P2542R7]] views::concat
@@ -126,19 +126,19 @@ Send
   "[[P2542R7]] views::concat"
   to Library Working Group for C++26.
 
-### [[P2642R5]] Padded mdspan layouts (tentative, needs revision)
+### [[P2642R5]] Padded mdspan layouts
 Send
-  "[[P2642R5]] Padded mdspan layouts (tentative, needs revision)"
+  "[[P2642R5]] Padded mdspan layouts"
   to Library Working Group for C++26.
 
-### [[P2663R5]] Proposal to support interleaved complex values in std::simd (tentative, needs revision)
+### [[P2663R5]] Proposal to support interleaved complex values in std::simd
 Send
-  "[[P2663R5]] Proposal to support interleaved complex values in std::simd (tentative, needs revision)"
+  "[[P2663R5]] Proposal to support interleaved complex values in std::simd"
   to Library Working Group for C++26.
 
-### [[P2810R2]] is_debugger_present is_replaceable (tentative, needs revision)
+### [[P2810R2]] is_debugger_present is_replaceable
 Send
-  "[[P2810R2]] is_debugger_present is_replaceable (tentative, needs revision)"
+  "[[P2810R2]] is_debugger_present is_replaceable"
   to Library Working Group for C++26.
 
 ### [[P2809R2]] Trivial infinite loops are not Undefined Behavior
@@ -161,9 +161,9 @@ Send
   "[[P2867R1]] Remove Deprecated strstreams From C++26"
   to Library Working Group for C++26.
 
-### [[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26 (tentative, needs revision)
+### [[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26
 Send
-  "[[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26 (tentative, needs revision)"
+  "[[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26"
   to Library Working Group for C++26.
 
 ### [[P2866R1]] Remove Deprecated Volatile Features From C++26
@@ -176,9 +176,9 @@ Send
   "[[P2944R2]] Comparisons for reference_wrapper"
   to Library Working Group for C++26.
 
-### [[P2933R0]] std::simd overloads for standard C++ <bit> header
+### [[P2933R1]] std::simd overloads for standard C++ <bit> header
 Send
-  "[[P2933R0]] std::simd overloads for standard C++ <bit> header"
+  "[[P2933R1]] std::simd overloads for standard C++ <bit> header"
   to Library Working Group for C++26.
 
 ### [[P2976R0]] Freestanding Library: algorithm, numeric, and random
