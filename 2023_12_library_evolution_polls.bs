@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: 2023-09 Library Evolution Polls
+Title: 2023-12 Library Evolution Polls
 Shortname: P3053
 Revision: 0
 Status: P
@@ -26,7 +26,7 @@ Default Biblio Display: direct
 # Introduction # {#introduction}
 
 This paper contains the decision polls that the C++ Library Evolution group
-  will take in September 2023.
+  will take in December 2023.
 
 # Voting # {#voting}
 
@@ -38,14 +38,14 @@ All committee members may vote, but if you have not participated in the Library
 
 ## How to Vote ## {#how-to-vote}
 
- <font size="5"><b><a href="https://documents.isocpp.org/index.php/apps/forms/XXXX"> Vote here </a></b></font>
+ <font size="5"><b><a href="https://documents.isocpp.org/index.php/apps/forms/pAgPqFZr8nQmCzwn"> Vote here </a></b></font>
 <br/>
 
 A documents.isocpp.org account is necessary to vote.
 If you have an isocpp.org/papers account, a documents.isocpp.org account has
   been created for you.
 Just go to documents.isocpp.org and reset your password.
-Email <a href="mailto:sinbal2l@gmail.com">Inbal Levi</a> and <a href="nevin@cplusplusguy.com ">Nevin Liber</a> if you
+Email <a href="mailto:sinbal2lextra@gmail.com">Inbal Levi</a> and <a href="nevin@cplusplusguy.com ">Nevin Liber</a> if you
   do not have an account or are having trouble accessing your account.
 
 If you see "Form not found" when you go to the above link, you are not signed
@@ -58,12 +58,12 @@ The Library Evolution chairs will send a confirmation to all voters before the
 
 If you need to change how you voted or have any questions or issues about
   voting, please email
-  <a href="mailto:sinbal2l@gmail.com">Inbal Levi</a>.
+  <a href="mailto:sinbal2lextra@gmail.com">Inbal Levi</a>.
 
 ## Voting Timeline ## {#voting-timeline}
 
-- 2023-12-12: Draft polls distributed by mailing list.
-- 2023-12-15: Start of the polling period.
+- 2023-12-15: Draft polls distributed by mailing list.
+- 2023-12-20: Start of the polling period.
 - 2024-01-10: End of the polling period.
 - 2024-01-15: Results and summarized comments are shared in the follwup paper (P3054R0).
 
@@ -110,93 +110,205 @@ If you need to see how you voted, change how you voted, or have any questions
   or issues about voting, please contact the Library Evolution chair.
 
 ## Polls ## {#polls}
-
+  
 ### [[P0876R14]] fiber_context - fibers without scheduler
+
 Send
   "[[P0876R14]] fiber_context - fibers without scheduler"
   to Library Working Group for C++26.
- 
+
 ### [[P0447R26]] Introduction of std::hive to the standard library
+
 Send
   "[[P0447R26]] Introduction of std::hive to the standard library"
   to Library Working Group for C++26.
 
 ### [[P2542R7]] views::concat
+
 Send
   "[[P2542R7]] views::concat"
   to Library Working Group for C++26.
 
 ### [[P2642R5]] Padded mdspan layouts
+
 Send
   "[[P2642R5]] Padded mdspan layouts"
   to Library Working Group for C++26.
 
 ### [[P2663R5]] Proposal to support interleaved complex values in std::simd
+
 Send
   "[[P2663R5]] Proposal to support interleaved complex values in std::simd"
   to Library Working Group for C++26.
 
 ### [[P2810R2]] is_debugger_present is_replaceable
+
 Send
   "[[P2810R2]] is_debugger_present is_replaceable"
   to Library Working Group for C++26.
 
 ### [[P2809R2]] Trivial infinite loops are not Undefined Behavior
+
 Send
   "[[P2809R2]] Trivial infinite loops are not Undefined Behavior"
   to Library Working Group for C++26.
 
 ### [[P2845R5]] Formatting of std::filesystem::path
+
 Send
   "[[P2845R5]] Formatting of std::filesystem::path"
   to Library Working Group for C++26.
 
 ### [[P2862R1]] text_encoding::name() should never return null values
+
 Send
   "[[P2862R1]] text_encoding::name() should never return null values"
   to Library Working Group for C++26.
 
 ### [[P2867R1]] Remove Deprecated strstreams From C++26
+
 Send
   "[[P2867R1]] Remove Deprecated strstreams From C++26"
   to Library Working Group for C++26.
 
 ### [[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26
+
 Send
   "[[P2869R3]] Remove Deprecated shared_ptr Atomic Access APIs From C++26"
   to Library Working Group for C++26.
 
 ### [[P2866R1]] Remove Deprecated Volatile Features From C++26
+
 Send
   "[[P2866R1]] Remove Deprecated Volatile Features From C++26"
   to Library Working Group for C++26.
 
 ### [[P2944R2]] Comparisons for reference_wrapper
+
 Send
   "[[P2944R2]] Comparisons for reference_wrapper"
   to Library Working Group for C++26.
 
-### [[P2933R1]] std::simd overloads for standard C++ <bit> header
+### [[P2933R1]] Extend <bit> header function with overloads for std::simd
+
 Send
-  "[[P2933R1]] std::simd overloads for standard C++ <bit> header"
+  "[[P2933R1]] Extend <bit> header function with overloads for std::simd"
   to Library Working Group for C++26.
 
 ### [[P2976R0]] Freestanding Library: algorithm, numeric, and random
+
 Send
   "[[P2976R0]] Freestanding Library: algorithm, numeric, and random"
   to Library Working Group for C++26.
 
+### [[P2999R3]] Sender Algorithm Customization
+
+Send
+  "[[P2999R3]] Sender Algorithm Customization"
+  to Library Working Group for C++26.
+
 ### [[P2267R1]] Library Evolution Policies
+
 Approve
   "[[P2267R1]] Library Evolution Policies" and create SD-9 as described.
 
 ### [[P2760R0]] A Plan for C++26 Ranges
+
 Approve
   "[[P2760R0]] A Plan for C++26 Ranges".
 
   
 <pre class=biblio>
 {
-
+  "P0447R26": {
+    "title": "Introduction of std::hive to the standard library",
+    "authors": [
+      "Matthew Bentley"
+    ],
+    "href": "https://wg21.link/P0447R26",
+    "date": "09 December 2023"
+  },
+  "P2542R7": {
+    "title": "views::concat",
+    "authors": [
+      "Hui Xie",
+      "S. Levent Yilmaz"
+    ],
+    "href": "https://wg21.link/P2542R7",
+    "date": "23 September 2023"
+  },
+  "P2642R5": {
+    "title": "Padded mdspan layouts",
+    "authors": [
+      "Christian Trott",
+      "Mark Hoemmen",
+      "Damien Lebrun-Grandie",
+      "Nicolas Morales",
+      "Malte Förster",
+      "Jiaming Yuan"
+    ],
+    "href": "https://wg21.link/P2642R5",
+    "date": "05 December 2023"
+  },
+  "P2663R5": {
+    "title": "Proposal to support interleaved complex values in std::simd",
+    "authors": [
+      "Daniel Towner",
+      "Ruslan Arutyunyan"
+    ],
+    "href": "https://wg21.link/P2663R5",
+    "date": "08 December 2023"
+  },
+  "P2810R2": {
+    "title": "is_debugger_present is_replaceable",
+    "authors": [
+      "René Ferdinand Rivera Morell",
+      "Ben Craig"
+    ],
+    "href": "https://wg21.link/P2810R2",
+    "date": "02 December 2023"
+  },
+  "P2845R5": {
+    "title": "Formatting of std::filesystem::path",
+    "authors": [
+      "Victor Zverovich"
+    ],
+    "href": "https://wg21.link/P2845R5",
+    "date": "24 November 2023"
+  },
+  "P2869R3": {
+    "title": "Remove Deprecated shared_ptr Atomic Access APIs From C++26",
+    "authors": [
+      "Alisdair Meredith"
+    ],
+    "href": "https://wg21.link/P2869R3",
+    "date": "02 December 2023"
+  },
+  "P2933R1": {
+    "title": "Extend <bit> header function with overloads for std::simd",
+    "authors": [
+      "Alisdair Meredith"
+    ],
+    "href": "https://wg21.link/P2933R1",
+    "date": "08 December 2023"
+  },
+  "P2999R3": {
+    "title": "Sender Algorithm Customization",
+    "authors": [
+      "Eric Niebler"
+    ],
+    "href": "https://wg21.link/P2999R3",
+    "date": "19 December 2023"
+  },
+  "P2267R1": {
+    "title": "Library Evolution Policies",
+    "authors": [
+      "Inbal Levi",
+      "Ben Craig",
+      "Fabio Fracassi"
+    ],
+    "href": "https://wg21.link/P2267R1",
+    "date": "23 November 2023"
+  }
 }
 </pre>
