@@ -65,7 +65,7 @@ If you need to change how you voted or have any questions or issues about
 - 2023-12-15: Draft polls distributed by mailing list.
 - 2023-12-20: Start of the polling period.
 - 2024-01-10: End of the polling period.
-- 2024-01-15: Results and summarized comments are shared in the follwup paper (P3054R0).
+- 2024-01-15: Results and summarized comments are shared in the follwup paper [[P3054R0]].
 
 # Poll Structure # {#poll-structure}
 
@@ -189,16 +189,22 @@ Send
   "[[P2944R2]] Comparisons for reference_wrapper"
   to Library Working Group for C++26.
 
-### [[P2933R1]] Extend <bit> header function with overloads for std::simd
+### [[P2933R1]] Extend `<bit>` header function with overloads for std::simd
 
 Send
-  "[[P2933R1]] Extend <bit> header function with overloads for std::simd"
+  "[[P2933R1]] Extend `<bit>` header function with overloads for std::simd"
   to Library Working Group for C++26.
 
 ### [[P2976R0]] Freestanding Library: algorithm, numeric, and random
 
 Send
   "[[P2976R0]] Freestanding Library: algorithm, numeric, and random"
+  to Library Working Group for C++26.
+
+### [[P2968R2]] Make std::ignore a first-class object
+
+Send
+  "[[P2968R2]] Make std::ignore a first-class object"
   to Library Working Group for C++26.
 
 ### [[P2999R3]] Sender Algorithm Customization
@@ -212,10 +218,10 @@ Send
 Approve
   "[[P2267R1]] Library Evolution Policies" and create SD-9 as described.
 
-### [[P2760R0]] A Plan for C++26 Ranges
+### [[P2760R1]] A Plan for C++26 Ranges
 
 Approve
-  "[[P2760R0]] A Plan for C++26 Ranges".
+  "[[P2760R1]] A Plan for C++26 Ranges".
 
   
 <pre class=biblio>
@@ -285,12 +291,20 @@ Approve
     "date": "02 December 2023"
   },
   "P2933R1": {
-    "title": "Extend <bit> header function with overloads for std::simd",
+    "title": "Extend `<bit>` header function with overloads for std::simd",
     "authors": [
       "Alisdair Meredith"
     ],
     "href": "https://wg21.link/P2933R1",
     "date": "08 December 2023"
+  },
+  "P2968R2": {
+    "title": "Make std::ignore a first-class object",
+    "authors": [
+      "Peter Sommerlad"
+    ],
+    "href": "https://wg21.link/P2968R2",
+    "date": "12 December 2023"
   },
   "P2999R3": {
     "title": "Sender Algorithm Customization",
@@ -309,6 +323,29 @@ Approve
     ],
     "href": "https://wg21.link/P2267R1",
     "date": "23 November 2023"
+  },
+  "P2760R1": {
+    "title": "A Plan for C++26 Ranges",
+    "authors": [
+      "Barry Revzin",
+      "Conor Hoekstra",
+      "Tim Song"
+    ],
+    "href": "https://wg21.link/P2760R1",
+    "date": "14 December 2023"
+  },
+  "P3054R0": {
+    "title": "2023-12 Library Evolution Poll Outcomes",
+    "authors": [
+      "Inbal Levi",
+      "Ben Craig",
+      "Fabio Fracassi",
+      "Billy Baker",
+      "Nevin Liber",
+      "Corentin Jabot"
+    ],
+    "href": "https://wg21.link/P3054R0",
+    "date": "15 January 2024"
   }
 }
 </pre>

@@ -1968,7 +1968,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">P3053R0<br>2023-12 Library Evolution Polls</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Published Proposal, <time class="dt-updated" datetime="2023-12-12">2023-12-12</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Published Proposal, <time class="dt-updated" datetime="2023-12-15">2023-12-15</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt class="editor">Authors:
@@ -2018,11 +2018,12 @@ dfn > a.self-link::before      { content: "#"; }
         <li><a href="#p2869r3-remove-deprecated-shared_ptr-atomic-access-apis-from-c26"><span class="secno">3.1.11</span> <span class="content"><span title="Remove Deprecated shared_ptr Atomic Access APIs From C++26">[P2869R3]</span> Remove Deprecated shared_ptr Atomic Access APIs From C++26</span></a>
         <li><a href="#p2866r1-remove-deprecated-volatile-features-from-c26"><span class="secno">3.1.12</span> <span class="content"><span title="Remove Deprecated Volatile Features From C++26">[P2866R1]</span> Remove Deprecated Volatile Features From C++26</span></a>
         <li><a href="#p2944r2-comparisons-for-reference_wrapper"><span class="secno">3.1.13</span> <span class="content"><span title="Comparisons for reference_wrapper">[P2944R2]</span> Comparisons for reference_wrapper</span></a>
-        <li><a href="#p2933r1-extend-header-function-with-overloads-for-stdsimd"><span class="secno">3.1.14</span> <span class="content"><span title="Extend <bit> header function with overloads for std::simd">[P2933R1]</span> Extend <bit> header function with overloads for std::simd</bit></span></a>
+        <li><a href="#p2933r1-extend-bit-header-function-with-overloads-for-stdsimd"><span class="secno">3.1.14</span> <span class="content"><span title="Extend `<bit>` header function with overloads for std::simd">[P2933R1]</span> Extend <code class="highlight"><c- o>&lt;</c-><c- n>bit</c-><c- o>></c-></code> header function with overloads for std::simd</span></a>
         <li><a href="#p2976r0-freestanding-library-algorithm-numeric-and-random"><span class="secno">3.1.15</span> <span class="content"><span title="Freestanding Library: algorithm, numeric, and random">[P2976R0]</span> Freestanding Library: algorithm, numeric, and random</span></a>
-        <li><a href="#p2999r3-sender-algorithm-customization"><span class="secno">3.1.16</span> <span class="content"><span title="Sender Algorithm Customization">[P2999R3]</span> Sender Algorithm Customization</span></a>
-        <li><a href="#p2267r1-library-evolution-policies"><span class="secno">3.1.17</span> <span class="content"><span title="Library Evolution Policies">[P2267R1]</span> Library Evolution Policies</span></a>
-        <li><a href="#p2760r0-a-plan-for-c26-ranges"><span class="secno">3.1.18</span> <span class="content"><span title="A Plan for C++26 Ranges">[P2760R0]</span> A Plan for C++26 Ranges</span></a>
+        <li><a href="#p2968r2-make-stdignore-a-first-class-object"><span class="secno">3.1.16</span> <span class="content"><span title="Make std::ignore a first-class object">[P2968R2]</span> Make std::ignore a first-class object</span></a>
+        <li><a href="#p2999r3-sender-algorithm-customization"><span class="secno">3.1.17</span> <span class="content"><span title="Sender Algorithm Customization">[P2999R3]</span> Sender Algorithm Customization</span></a>
+        <li><a href="#p2267r1-library-evolution-policies"><span class="secno">3.1.18</span> <span class="content"><span title="Library Evolution Policies">[P2267R1]</span> Library Evolution Policies</span></a>
+        <li><a href="#p2760r1-a-plan-for-c26-ranges"><span class="secno">3.1.19</span> <span class="content"><span title="A Plan for C++26 Ranges">[P2760R1]</span> A Plan for C++26 Ranges</span></a>
        </ol>
      </ol>
     <li>
@@ -2067,7 +2068,7 @@ The Library Evolution chairs will send a confirmation to all voters before the
     <li data-md>
      <p>2024-01-10: End of the polling period.</p>
     <li data-md>
-     <p>2024-01-15: Results and summarized comments are shared in the follwup paper (P3054R0).</p>
+     <p>2024-01-15: Results and summarized comments are shared in the follwup paper <a data-link-type="biblio" href="https://wg21.link/P3054R0" title="2023-12 Library Evolution Poll Outcomes">[P3054R0]</a>.</p>
    </ul>
    <h2 class="heading settled" data-level="3" id="poll-structure"><span class="secno">3. </span><span class="content">Poll Structure</span><a class="self-link" href="#poll-structure"></a></h2>
    <p>Each poll consists of a statement; you vote on whether you support the
@@ -2154,27 +2155,28 @@ We recommend drafting your comments in a text editor and then pasting them
    <p>Send
   "<a data-link-type="biblio" href="https://wg21.link/p2944r2" title="Comparisons for reference_wrapper">[P2944R2]</a> Comparisons for reference_wrapper"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.14" id="p2933r1-extend-header-function-with-overloads-for-stdsimd"><span class="secno">3.1.14. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2933R1" title="Extend <bit> header function with overloads for std::simd">[P2933R1]</a> Extend <bit> header function with overloads for std::simd</bit></span><a class="self-link" href="#p2933r1-extend-header-function-with-overloads-for-stdsimd"></a></h4>
-   <p>
-    Send
-  "<a data-link-type="biblio" href="https://wg21.link/P2933R1" title="Extend <bit> header function with overloads for std::simd">[P2933R1]</a> Extend 
-    <bit> header function with overloads for std::simd"
-  to Library Working Group for C++26.</bit>
-   </p>
+   <h4 class="heading settled" data-level="3.1.14" id="p2933r1-extend-bit-header-function-with-overloads-for-stdsimd"><span class="secno">3.1.14. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2933R1" title="Extend `<bit>` header function with overloads for std::simd">[P2933R1]</a> Extend <code class="highlight"><c- o>&lt;</c-><c- n>bit</c-><c- o>></c-></code> header function with overloads for std::simd</span><a class="self-link" href="#p2933r1-extend-bit-header-function-with-overloads-for-stdsimd"></a></h4>
+   <p>Send
+  "<a data-link-type="biblio" href="https://wg21.link/P2933R1" title="Extend `<bit>` header function with overloads for std::simd">[P2933R1]</a> Extend <code class="highlight"><c- o>&lt;</c-><c- n>bit</c-><c- o>></c-></code> header function with overloads for std::simd"
+  to Library Working Group for C++26.</p>
    <h4 class="heading settled" data-level="3.1.15" id="p2976r0-freestanding-library-algorithm-numeric-and-random"><span class="secno">3.1.15. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/p2976r0" title="Freestanding Library: algorithm, numeric, and random">[P2976R0]</a> Freestanding Library: algorithm, numeric, and random</span><a class="self-link" href="#p2976r0-freestanding-library-algorithm-numeric-and-random"></a></h4>
    <p>Send
   "<a data-link-type="biblio" href="https://wg21.link/p2976r0" title="Freestanding Library: algorithm, numeric, and random">[P2976R0]</a> Freestanding Library: algorithm, numeric, and random"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.16" id="p2999r3-sender-algorithm-customization"><span class="secno">3.1.16. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2999R3" title="Sender Algorithm Customization">[P2999R3]</a> Sender Algorithm Customization</span><a class="self-link" href="#p2999r3-sender-algorithm-customization"></a></h4>
+   <h4 class="heading settled" data-level="3.1.16" id="p2968r2-make-stdignore-a-first-class-object"><span class="secno">3.1.16. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2968R2" title="Make std::ignore a first-class object">[P2968R2]</a> Make std::ignore a first-class object</span><a class="self-link" href="#p2968r2-make-stdignore-a-first-class-object"></a></h4>
+   <p>Send
+  "<a data-link-type="biblio" href="https://wg21.link/P2968R2" title="Make std::ignore a first-class object">[P2968R2]</a> Make std::ignore a first-class object"
+  to Library Working Group for C++26.</p>
+   <h4 class="heading settled" data-level="3.1.17" id="p2999r3-sender-algorithm-customization"><span class="secno">3.1.17. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2999R3" title="Sender Algorithm Customization">[P2999R3]</a> Sender Algorithm Customization</span><a class="self-link" href="#p2999r3-sender-algorithm-customization"></a></h4>
    <p>Send
   "<a data-link-type="biblio" href="https://wg21.link/P2999R3" title="Sender Algorithm Customization">[P2999R3]</a> Sender Algorithm Customization"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.17" id="p2267r1-library-evolution-policies"><span class="secno">3.1.17. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2267R1" title="Library Evolution Policies">[P2267R1]</a> Library Evolution Policies</span><a class="self-link" href="#p2267r1-library-evolution-policies"></a></h4>
+   <h4 class="heading settled" data-level="3.1.18" id="p2267r1-library-evolution-policies"><span class="secno">3.1.18. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2267R1" title="Library Evolution Policies">[P2267R1]</a> Library Evolution Policies</span><a class="self-link" href="#p2267r1-library-evolution-policies"></a></h4>
    <p>Approve
   "<a data-link-type="biblio" href="https://wg21.link/P2267R1" title="Library Evolution Policies">[P2267R1]</a> Library Evolution Policies" and create SD-9 as described.</p>
-   <h4 class="heading settled" data-level="3.1.18" id="p2760r0-a-plan-for-c26-ranges"><span class="secno">3.1.18. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/p2760r0" title="A Plan for C++26 Ranges">[P2760R0]</a> A Plan for C++26 Ranges</span><a class="self-link" href="#p2760r0-a-plan-for-c26-ranges"></a></h4>
+   <h4 class="heading settled" data-level="3.1.19" id="p2760r1-a-plan-for-c26-ranges"><span class="secno">3.1.19. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2760R1" title="A Plan for C++26 Ranges">[P2760R1]</a> A Plan for C++26 Ranges</span><a class="self-link" href="#p2760r1-a-plan-for-c26-ranges"></a></h4>
    <p>Approve
-  "<a data-link-type="biblio" href="https://wg21.link/p2760r0" title="A Plan for C++26 Ranges">[P2760R0]</a> A Plan for C++26 Ranges".</p>
+  "<a data-link-type="biblio" href="https://wg21.link/P2760R1" title="A Plan for C++26 Ranges">[P2760R1]</a> A Plan for C++26 Ranges".</p>
   </main>
 <script>
 (function() {
@@ -2322,8 +2324,8 @@ We recommend drafting your comments in a text editor and then pasting them
    <dd>Christian Trott; et al. <a href="https://wg21.link/P2642R5"><cite>Padded mdspan layouts</cite></a>. 05 December 2023. URL: <a href="https://wg21.link/P2642R5">https://wg21.link/P2642R5</a>
    <dt id="biblio-p2663r5">[P2663R5]
    <dd>Daniel Towner; Ruslan Arutyunyan. <a href="https://wg21.link/P2663R5"><cite>Proposal to support interleaved complex values in std::simd</cite></a>. 08 December 2023. URL: <a href="https://wg21.link/P2663R5">https://wg21.link/P2663R5</a>
-   <dt id="biblio-p2760r0">[P2760R0]
-   <dd>Barry Revzin. <a href="https://wg21.link/p2760r0"><cite>A Plan for C++26 Ranges</cite></a>. 17 September 2023. URL: <a href="https://wg21.link/p2760r0">https://wg21.link/p2760r0</a>
+   <dt id="biblio-p2760r1">[P2760R1]
+   <dd>Barry Revzin; Conor Hoekstra; Tim Song. <a href="https://wg21.link/P2760R1"><cite>A Plan for C++26 Ranges</cite></a>. 14 December 2023. URL: <a href="https://wg21.link/P2760R1">https://wg21.link/P2760R1</a>
    <dt id="biblio-p2809r2">[P2809R2]
    <dd>JF Bastien. <a href="https://wg21.link/p2809r2"><cite>Trivial infinite loops are not Undefined Behavior</cite></a>. 14 October 2023. URL: <a href="https://wg21.link/p2809r2">https://wg21.link/p2809r2</a>
    <dt id="biblio-p2810r2">[P2810R2]
@@ -2339,11 +2341,15 @@ We recommend drafting your comments in a text editor and then pasting them
    <dt id="biblio-p2869r3">[P2869R3]
    <dd>Alisdair Meredith. <a href="https://wg21.link/P2869R3"><cite>Remove Deprecated shared_ptr Atomic Access APIs From C++26</cite></a>. 02 December 2023. URL: <a href="https://wg21.link/P2869R3">https://wg21.link/P2869R3</a>
    <dt id="biblio-p2933r1">[P2933R1]
-   <dd>Alisdair Meredith. <a href="https://wg21.link/P2933R1"><cite>Extend &lt;bit> header function with overloads for std::simd</cite></a>. 08 December 2023. URL: <a href="https://wg21.link/P2933R1">https://wg21.link/P2933R1</a>
+   <dd>Alisdair Meredith. <a href="https://wg21.link/P2933R1"><cite>Extend `&lt;bit>` header function with overloads for std::simd</cite></a>. 08 December 2023. URL: <a href="https://wg21.link/P2933R1">https://wg21.link/P2933R1</a>
    <dt id="biblio-p2944r2">[P2944R2]
    <dd>Barry Revzin. <a href="https://wg21.link/p2944r2"><cite>Comparisons for reference_wrapper</cite></a>. 17 September 2023. URL: <a href="https://wg21.link/p2944r2">https://wg21.link/p2944r2</a>
+   <dt id="biblio-p2968r2">[P2968R2]
+   <dd>Peter Sommerlad. <a href="https://wg21.link/P2968R2"><cite>Make std::ignore a first-class object</cite></a>. 12 December 2023. URL: <a href="https://wg21.link/P2968R2">https://wg21.link/P2968R2</a>
    <dt id="biblio-p2976r0">[P2976R0]
    <dd>Ben Craig. <a href="https://wg21.link/p2976r0"><cite>Freestanding Library: algorithm, numeric, and random</cite></a>. 17 September 2023. URL: <a href="https://wg21.link/p2976r0">https://wg21.link/p2976r0</a>
    <dt id="biblio-p2999r3">[P2999R3]
    <dd>Eric Niebler. <a href="https://wg21.link/P2999R3"><cite>Sender Algorithm Customization</cite></a>. 19 December 2023. URL: <a href="https://wg21.link/P2999R3">https://wg21.link/P2999R3</a>
+   <dt id="biblio-p3054r0">[P3054R0]
+   <dd>Inbal Levi; et al. <a href="https://wg21.link/P3054R0"><cite>2023-12 Library Evolution Poll Outcomes</cite></a>. 15 January 2024. URL: <a href="https://wg21.link/P3054R0">https://wg21.link/P3054R0</a>
   </dl>
