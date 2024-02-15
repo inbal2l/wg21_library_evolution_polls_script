@@ -62,7 +62,7 @@ If you need to change how you voted or have any questions or issues about
 
 ## Voting Timeline ## {#voting-timeline}
 
-- 2024-02-13: Draft polls distributed by mailing list.
+- 2024-02-14: Draft polls distributed by mailing list.
 - 2024-02-15: Start of the polling period.
 - 2024-03-10: End of the polling period.
 - 2024-03-15: Results and summarized comments are shared in the follwup paper [[P3124R0]].
@@ -125,16 +125,22 @@ Send
   "[[P2872R2]] Remove `wstring_convert` From C++26"
   to Library Working Group for C++26.
 
-### [[P2875R3]] Undeprecate `polymorphic_allocator::destroy` For C++26
+### [[P2875R3]] Undeprecate polymorphic_allocator::destroy for C++26
 
 Send
-  "[[P2875R3]] Undeprecate `polymorphic_allocator::destroy` For C++26"
+  "[[P2875R3]] Undeprecate polymorphic_allocator::destroy for C++26"
   to Library Working Group for C++26.
 
-### [[P3109R1]] A plan for `std::execution` for C++26
+### [[P3029R0]] Better mdspan's CTAD
+  
+Send
+  "[[P3029R0]] Better mdspan's CTAD"
+  to Library Working Group for C++26.
+
+### [[P3109R0]] A plan for `std::execution` for C++26
 
 Approve
-  "[[P3109R1]] A plan for `std::execution` for C++26".
+  "[[P3109R0]] A plan for `std::execution` for C++26".
 
   
 <pre class=biblio>
@@ -146,18 +152,34 @@ Approve
       "Antony Peacock",
       "Sean Parent"
     ],
-    "href": "https://wg21.link/P3019R6",
+    "href": "https://wg21.link/p3019r6",
     "date": "07 Feburary 2024"
   },
-  "P2875R3": {
-    "title": "Undeprecate polymorphic_allocator::destroy For C++26",
+  "P2872R2": {
+    "title": "Remove `wstring_convert` From C++26",
     "authors": [
       "Alisdair Meredith"
     ],
-    "href": "https://wg21.link/P2875R3",
-    "date": "15 Feburary 2024"
+    "href": "https://wg21.link/p2872r2",
+    "date": "14 September 2023"
   },
-  "P3109R1": {
+  "P2875R3": {
+    "title": "Undeprecate polymorphic_allocator::destroy for C++26",
+    "authors": [
+      "Alisdair Meredith"
+    ],
+    "href": "https://wg21.link/p2875r3",
+    "date": "15 February 2024"
+  },
+  "P3029R0": {
+    "title": "Better mdspan's CTAD",
+    "authors": [
+      "Hewill Kang"
+    ],
+    "href": "https://wg21.link/p3029r0",
+    "date": "14 October 2023"
+  },
+  "P3109R0": {
     "title": "A plan for std::execution for C++26",
     "authors": [
       "Lewis Baker",
@@ -165,8 +187,8 @@ Approve
       "Kirk Shoop",
       "Lucian Radu"
     ],
-    "href": "https://wg21.link/P3109R1",
-    "date": "15 Feburary 2024"
+    "href": "https://wg21.link/p3109r0",
+    "date": "12 Feburary 2024"
   },
   "P3124R0": {
     "title": "2024-02 Library Evolution Poll Outcomes",
@@ -178,7 +200,7 @@ Approve
       "Nevin Liber",
       "Corentin Jabot"
     ],
-    "href": "https://wg21.link/P3124R0",
+    "href": "https://wg21.link/p3124r0",
     "date": "15 March 2024"
   }
 }
