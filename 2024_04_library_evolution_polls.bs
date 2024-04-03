@@ -133,7 +133,7 @@ Send
   to Library Working Group for C++26.
 
 
-### [[P2075R5]] Philox as an extension of the C++ RNG engines (Tentative, requires a revision published)
+### [[P2075R5]] Philox as an extension of the C++ RNG engines
 
 Send
   "[[P2075R5]] Philox as an extension of the C++ RNG engines"
