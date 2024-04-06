@@ -1967,7 +1967,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">P3213R0<br>2024-04 Library Evolution Polls</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Published Proposal, <time class="dt-updated" datetime="2024-04-02">2024-04-02</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Published Proposal, <time class="dt-updated" datetime="2024-04-06">2024-04-06</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt class="editor">Authors:
@@ -2004,14 +2004,15 @@ dfn > a.self-link::before      { content: "#"; }
       <li>
        <a href="#polls"><span class="secno">3.1</span> <span class="content">Polls</span></a>
        <ol class="toc">
-        <li><a href="#p2019r5-thread-attributes"><span class="secno">3.1.1</span> <span class="content"><span title="Thread attributes">[P2019R5]</span> Thread Attributes</span></a>
-        <li><a href="#p2855r1-member-customization-points-for-senders-and-receivers"><span class="secno">3.1.2</span> <span class="content"><span>[P2855R1]</span> Member customization points for Senders and Receivers</span></a>
-        <li><a href="#p3168r1-give-stdoptional-range-support-tentative-requires-a-revision-published"><span class="secno">3.1.3</span> <span class="content"><span>[P3168R1]</span> Give std::optional range support (Tentative, requires a revision published)</span></a>
-        <li><a href="#p2075r5-philox-as-an-extension-of-the-c-rng-engines"><span class="secno">3.1.4</span> <span class="content"><span>[P2075R5]</span> Philox as an extension of the C++ RNG engines</span></a>
-        <li><a href="#p2835r3-expose-stdatomic_ref-s-object-address"><span class="secno">3.1.5</span> <span class="content"><span title="Expose std::atomic_ref&apos;s object address">[P2835R3]</span> Expose std::atomic_ref 's object address</span></a>
-        <li><a href="#p2927r2-observing-exceptions-stored-in-exception_ptr"><span class="secno">3.1.6</span> <span class="content"><span>[P2927R2]</span> Observing exceptions stored in exception_ptr</span></a>
-        <li><a href="#p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"><span class="secno">3.1.7</span> <span class="content"><span>[P2997R1]</span> Removing the common reference requirement from the indirectly invocable concepts</span></a>
-        <li><a href="#p3201r1-lewg-nodiscard-policy"><span class="secno">3.1.8</span> <span class="content"><span>[P3201R1]</span> LEWG nodiscard policy</span></a>
+        <li><a href="#p2985r0-a-type-trait-for-detecting-virtual-base-classes"><span class="secno">3.1.1</span> <span class="content"><span title="A type trait for detecting virtual base classes">[P2985R0]</span> A type trait for detecting virtual base classes</span></a>
+        <li><a href="#p2019r5-thread-attributes"><span class="secno">3.1.2</span> <span class="content"><span title="Thread Attributes">[P2019R5]</span> Thread Attributes</span></a>
+        <li><a href="#p2855r1-member-customization-points-for-senders-and-receivers"><span class="secno">3.1.3</span> <span class="content"><span title="Member customization points for Senders and Receivers">[P2855R1]</span> Member customization points for Senders and Receivers</span></a>
+        <li><a href="#p3168r1-give-stdoptional-range-support"><span class="secno">3.1.4</span> <span class="content"><span title="Give std::optional range support">[P3168R1]</span> Give std::optional range support</span></a>
+        <li><a href="#p2075r5-philox-as-an-extension-of-the-c-rng-engines"><span class="secno">3.1.5</span> <span class="content"><span title="Philox as an extension of the C++ RNG engines">[P2075R5]</span> Philox as an extension of the C++ RNG engines</span></a>
+        <li><a href="#p2835r3-expose-stdatomic_ref-s-object-address"><span class="secno">3.1.6</span> <span class="content"><span title="Expose std::atomic_ref &apos;s object address">[P2835R3]</span> Expose std::atomic_ref 's object address</span></a>
+        <li><a href="#p2927r2-observing-exceptions-stored-in-exception_ptr"><span class="secno">3.1.7</span> <span class="content"><span title="Observing exceptions stored in exception_ptr">[P2927R2]</span> Observing exceptions stored in exception_ptr</span></a>
+        <li><a href="#p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"><span class="secno">3.1.8</span> <span class="content"><span title="Removing the common reference requirement from the indirectly invocable concepts">[P2997R1]</span> Removing the common reference requirement from the indirectly invocable concepts</span></a>
+        <li><a href="#p3201r1-lewg-nodiscard-policy"><span class="secno">3.1.9</span> <span class="content"><span title="LEWG nodiscard policy">[P3201R1]</span> LEWG nodiscard policy</span></a>
        </ol>
      </ol>
     <li>
@@ -2091,37 +2092,41 @@ We recommend drafting your comments in a text editor and then pasting them
    <p>If you need to see how you voted, change how you voted, or have any questions
   or issues about voting, please contact the Library Evolution chair.</p>
    <h3 class="heading settled" data-level="3.1" id="polls"><span class="secno">3.1. </span><span class="content">Polls</span><a class="self-link" href="#polls"></a></h3>
-   <h4 class="heading settled" data-level="3.1.1" id="p2019r5-thread-attributes"><span class="secno">3.1.1. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/p2019r5" title="Thread attributes">[P2019R5]</a> Thread Attributes</span><a class="self-link" href="#p2019r5-thread-attributes"></a></h4>
+   <h4 class="heading settled" data-level="3.1.1" id="p2985r0-a-type-trait-for-detecting-virtual-base-classes"><span class="secno">3.1.1. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2985R0" title="A type trait for detecting virtual base classes">[P2985R0]</a> A type trait for detecting virtual base classes</span><a class="self-link" href="#p2985r0-a-type-trait-for-detecting-virtual-base-classes"></a></h4>
    <p>Send
-  "<a data-link-type="biblio" href="https://wg21.link/p2019r5" title="Thread attributes">[P2019R5]</a> Thread Attributes"
+  "<a data-link-type="biblio" href="https://wg21.link/P2985R0" title="A type trait for detecting virtual base classes">[P2985R0]</a> A type trait for detecting virtual base classes"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.2" id="p2855r1-member-customization-points-for-senders-and-receivers"><span class="secno">3.1.2. </span><span class="content"><span>[P2855R1]</span> Member customization points for Senders and Receivers</span><a class="self-link" href="#p2855r1-member-customization-points-for-senders-and-receivers"></a></h4>
+   <h4 class="heading settled" data-level="3.1.2" id="p2019r5-thread-attributes"><span class="secno">3.1.2. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2019R5" title="Thread Attributes">[P2019R5]</a> Thread Attributes</span><a class="self-link" href="#p2019r5-thread-attributes"></a></h4>
+   <p>Send
+  "<a data-link-type="biblio" href="https://wg21.link/P2019R5" title="Thread Attributes">[P2019R5]</a> Thread Attributes"
+  to Library Working Group for C++26.</p>
+   <h4 class="heading settled" data-level="3.1.3" id="p2855r1-member-customization-points-for-senders-and-receivers"><span class="secno">3.1.3. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2855R1" title="Member customization points for Senders and Receivers">[P2855R1]</a> Member customization points for Senders and Receivers</span><a class="self-link" href="#p2855r1-member-customization-points-for-senders-and-receivers"></a></h4>
    <p>Apply changes in
-  "<span>[P2855R1]</span> Member customization points for Senders and Receivers"
+  "<a data-link-type="biblio" href="https://wg21.link/P2855R1" title="Member customization points for Senders and Receivers">[P2855R1]</a> Member customization points for Senders and Receivers"
   to P2300, and send the revised paper to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.3" id="p3168r1-give-stdoptional-range-support-tentative-requires-a-revision-published"><span class="secno">3.1.3. </span><span class="content"><span>[P3168R1]</span> Give std::optional range support (Tentative, requires a revision published)</span><a class="self-link" href="#p3168r1-give-stdoptional-range-support-tentative-requires-a-revision-published"></a></h4>
+   <h4 class="heading settled" data-level="3.1.4" id="p3168r1-give-stdoptional-range-support"><span class="secno">3.1.4. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P3168R1" title="Give std::optional range support">[P3168R1]</a> Give std::optional range support</span><a class="self-link" href="#p3168r1-give-stdoptional-range-support"></a></h4>
    <p>Send
-  "<span>[P3168R1]</span> Give std::optional range support"
+  "<a data-link-type="biblio" href="https://wg21.link/P3168R1" title="Give std::optional range support">[P3168R1]</a> Give std::optional range support"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.4" id="p2075r5-philox-as-an-extension-of-the-c-rng-engines"><span class="secno">3.1.4. </span><span class="content"><span>[P2075R5]</span> Philox as an extension of the C++ RNG engines</span><a class="self-link" href="#p2075r5-philox-as-an-extension-of-the-c-rng-engines"></a></h4>
+   <h4 class="heading settled" data-level="3.1.5" id="p2075r5-philox-as-an-extension-of-the-c-rng-engines"><span class="secno">3.1.5. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2075R5" title="Philox as an extension of the C++ RNG engines">[P2075R5]</a> Philox as an extension of the C++ RNG engines</span><a class="self-link" href="#p2075r5-philox-as-an-extension-of-the-c-rng-engines"></a></h4>
    <p>Send
-  "<span>[P2075R5]</span> Philox as an extension of the C++ RNG engines"
+  "<a data-link-type="biblio" href="https://wg21.link/P2075R5" title="Philox as an extension of the C++ RNG engines">[P2075R5]</a> Philox as an extension of the C++ RNG engines"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.5" id="p2835r3-expose-stdatomic_ref-s-object-address"><span class="secno">3.1.5. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/p2835r3" title="Expose std::atomic_ref&apos;s object address">[P2835R3]</a> Expose std::atomic_ref 's object address</span><a class="self-link" href="#p2835r3-expose-stdatomic_ref-s-object-address"></a></h4>
+   <h4 class="heading settled" data-level="3.1.6" id="p2835r3-expose-stdatomic_ref-s-object-address"><span class="secno">3.1.6. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2835R3" title="Expose std::atomic_ref &apos;s object address">[P2835R3]</a> Expose std::atomic_ref 's object address</span><a class="self-link" href="#p2835r3-expose-stdatomic_ref-s-object-address"></a></h4>
    <p>Send
-  "<a data-link-type="biblio" href="https://wg21.link/p2835r3" title="Expose std::atomic_ref&apos;s object address">[P2835R3]</a> Expose std::atomic_ref 's object address"
+  "<a data-link-type="biblio" href="https://wg21.link/P2835R3" title="Expose std::atomic_ref &apos;s object address">[P2835R3]</a> Expose std::atomic_ref 's object address"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.6" id="p2927r2-observing-exceptions-stored-in-exception_ptr"><span class="secno">3.1.6. </span><span class="content"><span>[P2927R2]</span> Observing exceptions stored in exception_ptr</span><a class="self-link" href="#p2927r2-observing-exceptions-stored-in-exception_ptr"></a></h4>
+   <h4 class="heading settled" data-level="3.1.7" id="p2927r2-observing-exceptions-stored-in-exception_ptr"><span class="secno">3.1.7. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2927R2" title="Observing exceptions stored in exception_ptr">[P2927R2]</a> Observing exceptions stored in exception_ptr</span><a class="self-link" href="#p2927r2-observing-exceptions-stored-in-exception_ptr"></a></h4>
    <p>Send
-  "<span>[P2927R2]</span> Observing exceptions stored in exception_ptr"
+  "<a data-link-type="biblio" href="https://wg21.link/P2927R2" title="Observing exceptions stored in exception_ptr">[P2927R2]</a> Observing exceptions stored in exception_ptr"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.7" id="p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"><span class="secno">3.1.7. </span><span class="content"><span>[P2997R1]</span> Removing the common reference requirement from the indirectly invocable concepts</span><a class="self-link" href="#p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"></a></h4>
+   <h4 class="heading settled" data-level="3.1.8" id="p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"><span class="secno">3.1.8. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P2997R1" title="Removing the common reference requirement from the indirectly invocable concepts">[P2997R1]</a> Removing the common reference requirement from the indirectly invocable concepts</span><a class="self-link" href="#p2997r1-removing-the-common-reference-requirement-from-the-indirectly-invocable-concepts"></a></h4>
    <p>Send
-  "<span>[P2997R1]</span> Removing the common reference requirement from the indirectly invocable concepts"
+  "<a data-link-type="biblio" href="https://wg21.link/P2997R1" title="Removing the common reference requirement from the indirectly invocable concepts">[P2997R1]</a> Removing the common reference requirement from the indirectly invocable concepts"
   to Library Working Group for C++26.</p>
-   <h4 class="heading settled" data-level="3.1.8" id="p3201r1-lewg-nodiscard-policy"><span class="secno">3.1.8. </span><span class="content"><span>[P3201R1]</span> LEWG nodiscard policy</span><a class="self-link" href="#p3201r1-lewg-nodiscard-policy"></a></h4>
+   <h4 class="heading settled" data-level="3.1.9" id="p3201r1-lewg-nodiscard-policy"><span class="secno">3.1.9. </span><span class="content"><a data-link-type="biblio" href="https://wg21.link/P3201R1" title="LEWG nodiscard policy">[P3201R1]</a> LEWG nodiscard policy</span><a class="self-link" href="#p3201r1-lewg-nodiscard-policy"></a></h4>
    <p>Apply the policy suggested in
-  "<span>[P3201R1]</span> LEWG nodiscard policy"
+  "<a data-link-type="biblio" href="https://wg21.link/P3201R1" title="LEWG nodiscard policy">[P3201R1]</a> LEWG nodiscard policy"
   to SD-9.</p>
   </main>
 <script>
@@ -2257,9 +2262,23 @@ We recommend drafting your comments in a text editor and then pasting them
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-p2019r5">[P2019R5]
-   <dd>Corentin Jabot. <a href="https://wg21.link/p2019r5"><cite>Thread attributes</cite></a>. 13 January 2024. URL: <a href="https://wg21.link/p2019r5">https://wg21.link/p2019r5</a>
+   <dd>Corentin Jabot. <a href="https://wg21.link/P2019R5"><cite>Thread Attributes</cite></a>. 13 January 2024. URL: <a href="https://wg21.link/P2019R5">https://wg21.link/P2019R5</a>
+   <dt id="biblio-p2075r5">[P2075R5]
+   <dd>Ilya Burylov; et al. <a href="https://wg21.link/P2075R5"><cite>Philox as an extension of the C++ RNG engines</cite></a>. 01 April 2024. URL: <a href="https://wg21.link/P2075R5">https://wg21.link/P2075R5</a>
    <dt id="biblio-p2195r2">[P2195R2]
    <dd>Bryce Adelstein Lelbach. <a href="https://wg21.link/p2195r2"><cite>Electronic Straw Polls</cite></a>. 28 January 2021. URL: <a href="https://wg21.link/p2195r2">https://wg21.link/p2195r2</a>
    <dt id="biblio-p2835r3">[P2835R3]
-   <dd>Gonzalo Brito Gadeschi. <a href="https://wg21.link/p2835r3"><cite>Expose std::atomic_ref's object address</cite></a>. 20240131. URL: <a href="https://wg21.link/p2835r3">https://wg21.link/p2835r3</a>
+   <dd>Gonzalo Brito Gadeschi; et al. <a href="https://wg21.link/P2835R3"><cite>Expose std::atomic_ref 's object address</cite></a>. 31 January 2024. URL: <a href="https://wg21.link/P2835R3">https://wg21.link/P2835R3</a>
+   <dt id="biblio-p2855r1">[P2855R1]
+   <dd>Ville Voutilainen. <a href="https://wg21.link/P2855R1"><cite>Member customization points for Senders and Receivers</cite></a>. 22 February 2024. URL: <a href="https://wg21.link/P2855R1">https://wg21.link/P2855R1</a>
+   <dt id="biblio-p2927r2">[P2927R2]
+   <dd>Arthur O'Dwyer; Gor Nishanov. <a href="https://wg21.link/P2927R2"><cite>Observing exceptions stored in exception_ptr</cite></a>. 22 March 2024. URL: <a href="https://wg21.link/P2927R2">https://wg21.link/P2927R2</a>
+   <dt id="biblio-p2985r0">[P2985R0]
+   <dd>Giuseppe D'Angelo. <a href="https://wg21.link/P2985R0"><cite>A type trait for detecting virtual base classes</cite></a>. 05 April 2024. URL: <a href="https://wg21.link/P2985R0">https://wg21.link/P2985R0</a>
+   <dt id="biblio-p2997r1">[P2997R1]
+   <dd>Barry Revzin; Tim Song. <a href="https://wg21.link/P2997R1"><cite>Removing the common reference requirement from the indirectly invocable concepts</cite></a>. 21 March 2024. URL: <a href="https://wg21.link/P2997R1">https://wg21.link/P2997R1</a>
+   <dt id="biblio-p3168r1">[P3168R1]
+   <dd>Marco Foco; et al. <a href="https://wg21.link/P3168R1"><cite>Give std::optional range support</cite></a>. 05 April 2024. URL: <a href="https://wg21.link/P3168R1">https://wg21.link/P3168R1</a>
+   <dt id="biblio-p3201r1">[P3201R1]
+   <dd>Jonathan Wakely; David Sankel; Darius Neațu. <a href="https://wg21.link/P3201R1"><cite>LEWG nodiscard policy</cite></a>. 05 April 2024. URL: <a href="https://wg21.link/P3201R1">https://wg21.link/P3201R1</a>
   </dl>

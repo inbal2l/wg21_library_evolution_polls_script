@@ -112,6 +112,14 @@ If you need to see how you voted, change how you voted, or have any questions
 ## Polls ## {#polls}
 
 
+
+### [[P2985R0]] A type trait for detecting virtual base classes
+
+Send
+  "[[P2985R0]] A type trait for detecting virtual base classes"
+  to Library Working Group for C++26.
+
+
 ### [[P2019R5]] Thread Attributes
 
 Send
@@ -126,7 +134,7 @@ Apply changes in
   to P2300, and send the revised paper to Library Working Group for C++26.
 
 
-### [[P3168R1]] Give std::optional range support (Tentative, requires a revision published)
+### [[P3168R1]] Give std::optional range support
 
 Send
   "[[P3168R1]] Give std::optional range support"
@@ -169,28 +177,103 @@ Apply the policy suggested in
   to SD-9.
 
 
-  
 <pre class=biblio>
 {
-  "PXXXXRX": {
-    "title": "TBD",
+  "P2985R0": {
+    "title": "A type trait for detecting virtual base classes",
     "authors": [
-      "John Doe",
-      "John Doe",
-      "John Doe"
+      "Giuseppe D'Angelo"
     ],
-    "href": "https://wg21.link/pXXXXrX",
-    "date": "15 March 2024"
+    "href": "https://wg21.link/P2985R0",
+    "date": "05 April 2024"
   },
-  "PXXXXRX": {
+  "P2019R5": {
+    "title": "Thread Attributes",
+    "authors": [
+      "Corentin Jabot"
+    ],
+    "href": "https://wg21.link/P2019R5",
+    "date": "13 January 2024"
+  },
+  "P2855R1": {
+    "title": "Member customization points for Senders and Receivers",
+    "authors": [
+      "Ville Voutilainen"
+    ],
+    "href": "https://wg21.link/P2855R1",
+    "date": "22 February 2024"
+  },
+    "P3168R1": {
+    "title": "Give std::optional range support",
+    "authors": [
+      "Marco Foco",
+      "Darius Neațu",
+      "Barry Revzin",
+      "David Sankel"
+    ],
+    "href": "https://wg21.link/P3168R1",
+    "date": "05 April 2024"
+  },
+    "P2075R5": {
+    "title": "Philox as an extension of the C++ RNG engines",
+    "authors": [
+      "Ilya Burylov",
+      "Ruslan Arutyunyan",
+      "Andrey Nikolaev",
+      "Alina Elizarova",
+      "Pavel Dyakov"
+    ],
+    "href": "https://wg21.link/P2075R5",
+    "date": "01 April 2024"
+  },
+    "P2835R3": {
+    "title": "Expose std::atomic_ref 's object address",
+    "authors": [
+      "Gonzalo Brito Gadeschi",
+      "Mark Hoemmen",
+      "Andrey Nikolaev",
+      "Carter H. Edwards",
+      "Bryce Adelstein Lelbach"
+    ],
+    "href": "https://wg21.link/P2835R3",
+    "date": "31 January 2024"
+  },
+    "P2927R2": {
+    "title": "Observing exceptions stored in exception_ptr",
+    "authors": [
+      "Arthur O'Dwyer",
+      "Gor Nishanov"
+    ],
+    "href": "https://wg21.link/P2927R2",
+    "date": "22 March 2024"
+  },
+    "P2997R1": {
+    "title": "Removing the common reference requirement from the indirectly invocable concepts",
+    "authors": [
+      "Barry Revzin",
+      "Tim Song"
+    ],
+    "href": "https://wg21.link/P2997R1",
+    "date": "21 March 2024"
+  },
+    "P3201R1": {
+    "title": "LEWG nodiscard policy",
+    "authors": [
+      "Jonathan Wakely",
+      "David Sankel",
+      "Darius Neațu"
+    ],
+    "href": "https://wg21.link/P3201R1",
+    "date": "05 April 2024"
+  },
+    "PXXXXRX": {
     "title": "TBD",
     "authors": [
-      "John Doe",
-      "John Doe",
-      "John Doe"
+      "John Duo",
+      "John Duo"
     ],
-    "href": "https://wg21.link/pXXXXrX",
-    "date": "15 March 2024"
+    "href": "https://wg21.link/PXXXXRX",
+    "date": "05 April 2024"
   },
   "P3213R0": {
     "title": "2024-04 Library Evolution Poll Outcomes",
