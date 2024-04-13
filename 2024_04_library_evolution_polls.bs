@@ -169,6 +169,12 @@ Send
   to Library Working Group for C++26.
 
 
+### [[P2389R1]] dextents Index Type Parameter
+
+Send
+  "[[P2389R1]] dextents Index Type Parameter"
+  to Library Working Group for C++26.
+
 
 ### [[P3201R1]] LEWG nodiscard policy
 
@@ -256,6 +262,15 @@ Apply the policy suggested in
     "href": "https://wg21.link/P2997R1",
     "date": "21 March 2024"
   },
+    "P2389R1": {
+    "title": "dextents Index Type Parameter",
+    "authors": [
+      "Bryce Adelstein Lelbach",
+      "Mark Hoemmen"
+    ],
+    "href": "https://wg21.link/P2389R1",
+    "date": "08 April 2024"
+  },
     "P3201R1": {
     "title": "LEWG nodiscard policy",
     "authors": [
@@ -266,16 +281,7 @@ Apply the policy suggested in
     "href": "https://wg21.link/P3201R1",
     "date": "05 April 2024"
   },
-    "PXXXXRX": {
-    "title": "TBD",
-    "authors": [
-      "John Duo",
-      "John Duo"
-    ],
-    "href": "https://wg21.link/PXXXXRX",
-    "date": "05 April 2024"
-  },
-  "P3213R0": {
+  "P3214R0": {
     "title": "2024-04 Library Evolution Poll Outcomes",
     "authors": [
       "Inbal Levi",
@@ -285,8 +291,8 @@ Apply the policy suggested in
       "Nevin Liber",
       "Corentin Jabot"
     ],
-    "href": "https://wg21.link/p3213r0",
-    "date": "15 March 2024"
+    "href": "https://wg21.link/p3214r0",
+    "date": "13 April 2024"
   }
 }
 </pre>
