@@ -148,13 +148,6 @@ Send
   to Library Working Group for C++26.
 
 
-### [[P2835R3]] Expose std::atomic_ref 's object address
-
-Send
-  "[[P2835R3]] Expose std::atomic_ref 's object address"
-  to Library Working Group for C++26.
-
-
 ### [[P2927R2]] Observing exceptions stored in exception_ptr
 
 Send
@@ -231,18 +224,6 @@ Apply the policy suggested in
     ],
     "href": "https://wg21.link/P2075R5",
     "date": "01 April 2024"
-  },
-    "P2835R3": {
-    "title": "Expose std::atomic_ref 's object address",
-    "authors": [
-      "Gonzalo Brito Gadeschi",
-      "Mark Hoemmen",
-      "Andrey Nikolaev",
-      "Carter H. Edwards",
-      "Bryce Adelstein Lelbach"
-    ],
-    "href": "https://wg21.link/P2835R3",
-    "date": "31 January 2024"
   },
     "P2927R2": {
     "title": "Observing exceptions stored in exception_ptr",
