@@ -1,0 +1,238 @@
+<pre class='metadata'>
+Title: 2024-10 Library Evolution Polls
+Shortname: P3467R0
+Revision: 0
+Status: P
+Group: WG21
+Editor: Inbal Levi - Library Evolution Chair, MPGC Services LTD, sinbal2l@gmail.com
+Editor: Fabio Fracassi - Library Evolution Assistant Chair, CODE University of Applied Sciences, fabio@fracassi.de
+Editor: Ben Craig - Library Evolution Assistant Chair, Raven, ben.craig@gmail.com 
+Editor: Billy Baker - Library Evolution Incubator Chair, NVIDIA, billy.baker.cpp@gmail.com
+Editor: Nevin Liber - Library Evolution Incubator Assistant Chair and Admin Chair, Argonne National Laboratory, nevin@cplusplusguy.com 
+Editor: Corentin Jabot - Library Mailing List Review Manager, corentin.jabot@gmail.com
+
+Audience: WG21
+
+URL: https://wg21.link/P3467
+!Source: <a href="https://github.com/inbal2l/wg21_library_evolution_polls_script/blob/main/2024_10_library_evolution_polls.bs">GitHub</a>
+Metadata Order: Editor, Source, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+# Introduction # {#introduction}
+
+This paper contains the decision polls that the C++ Library Evolution group
+  will take in October 2024.
+
+# Voting # {#voting}
+
+These decision polls will be conducted electronically; see [[P2195R2]] for
+  more information on electronic voting procedures.
+
+All committee members may vote, but if you have not participated in the
+  Library Evolution discussions of a poll (in-person, over telecon, or
+  over email), please consider whether you sufficiently understand the
+  topic to be able to vote in an informed manner.
+If you do not, please choose to not participate in the poll.
+
+## How to Vote ## {#how-to-vote}
+
+ <font size="5"><b><a href="https://documents.isocpp.org/index.php/apps/forms/fpeKqo4M8mH2jeiB"> Vote here </a></b></font>
+<br/>
+
+A documents.isocpp.org account is necessary to vote.
+If you have an isocpp.org/papers account, a documents.isocpp.org account has
+  been created for you.
+Just go to documents.isocpp.org and reset your password.
+Email <a href="mailto:sinbal2lextra@gmail.com">Inbal Levi</a> and <a href="nevin@cplusplusguy.com ">Nevin Liber</a> if you
+  do not have an account or are having trouble accessing your account.
+
+If you see "Form not found" when you go to the above link, you are not signed
+  in to documents.isocpp.org.
+Go to documents.isocpp.org and sign in first.
+
+You will not receive a confirmation email after voting.
+The Library Evolution chairs will send a confirmation to all voters before the
+  close of the poll.
+
+If you need to change how you voted or have any questions or issues about
+  voting, please email
+  <a href="mailto:sinbal2lextra@gmail.com">Inbal Levi</a>.
+
+## Voting Timeline ## {#voting-timeline}
+
+- 2024-10-15: Draft polls distributed to chairs.
+- 2024-10-20: Start of the polling period.
+- 2024-11-10: End of the polling period.
+- 2024-11-15: Results and summarized comments are shared in the follwing paper [[P3468R0]].
+
+# Poll Structure # {#poll-structure}
+
+Each poll consists of a statement; you vote on whether you support the
+  statement.
+All polls will be 5-way polls; you'll vote either "strongly favor",
+  "weakly favor", "neutral", "weakly against", or "strongly against".
+
+Polls phrased as "Return X" indicate that the paper was sent to Library Working
+  Group in the past, and Libary Working Group returned it to us with
+  questions.
+Polls phrased as "Send X" indicate that the paper has not previously been sent
+  to Library Working Group.
+
+All committee members may vote, but if you have not participated in the
+  Library Evolution discussions of a poll (in-person, over telecon, or
+  over email), please consider whether you sufficiently understand the
+  topic to be able to vote in an informed manner.
+If you do not, please choose to not participate in the poll.
+
+If you do not want to participate in a poll, select the "I do not want to
+  participate in this poll" option.
+Those who do not participate in a poll will not be counted or recorded.
+Voting neutral is not the same as choosing to not participate; please
+  don't vote neutral if you did not participate in the discussions of
+  the poll.
+
+Each poll has a comment field.
+Please write a few sentences explaining the rationale for your vote.
+We recommend drafting your comments in a text editor and then pasting them
+  into the polling system.
+
+Poll results and selected comments will be shared with Library Evolution after
+  the end of the polling period, including attribution of your votes and
+  comments.
+
+If you want to discuss the polls or how you plan on voting, please start an
+  email thread on the
+  <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
+
+If you need to see how you voted, change how you voted, or have any questions
+  or issues about voting, please contact the Library Evolution chair.
+
+## Polls ## {#polls}
+
+
+### [[P2897R5]] aligned_accessor: An mdspan accessor expressing pointer overalignment
+
+Send
+  "[[P2897R5]] aligned_accessor: An mdspan accessor expressing pointer overalignment"
+  to Library Working Group for C++26.
+
+
+### [[P3008R2]] Atomic floating-point min/max
+
+Send
+  "[[P3008R2]] Atomic floating-point min/max"
+  to Library Working Group for C++26.
+
+### [[P3050R2]] Fix C++26 by optimizing linalg::conjugated for noncomplex value types
+
+Send
+  "[[P3050R2]] Fix C++26 by optimizing linalg::conjugated for noncomplex value types"
+  to Library Working Group for C++26.
+
+### [[P3068R4]] Allowing exception throwing in constant-evaluation
+
+Send
+  "[[P3068R4]] Allowing exception throwing in constant-evaluation"
+  to Library Working Group for C++26.
+
+### [[P3136R0]] Retiring niebloids
+
+Send
+  "[[P3136R0]] Retiring niebloids"
+  to Library Working Group for C++26.
+
+### [[P3222R0]] Fix C++26 by adding transposed special cases for P2642 layouts
+
+Send
+  "[[P3222R0]] Fix C++26 by adding transposed special cases for P2642 layouts"
+  to Library Working Group for C++26.
+
+### [[P3309R2]] constexpr atomic and atomic_ref
+
+Send
+  "[[P3309R2]] constexpr atomic and atomic_ref"
+  to Library Working Group for C++26.
+
+### [[P3323R0]] cv-qualified types in atomic and atomic_ref
+
+Send
+  "[[P3323R0]] cv-qualified types in atomic and atomic_ref"
+  to Library Working Group for C++26.
+
+NOTE:Both P3309R2 and P3323R0 modify the same section, the assumption is that wording can be merged in LWG or by the editors. There is no known design conflict.
+
+### [[P3325R3]] A Utility for Creating Execution Environments
+
+Send
+  "[[P3325R3]] A Utility for Creating Execution Environments"
+  to Library Working Group for C++26.
+
+### [[P0472R2]] Put std::monostate in `<utility>`
+
+Send
+  "[[P0472R2]] Put std::monostate in `<utility>`"
+  to Library Working Group for C++26.
+ 
+### [[P3355R1]] Fix submdspan for C++26
+
+Send
+  "[[P3355R1]] Fix submdspan for C++26"
+  to Library Working Group for C++26.
+
+### [[P3369R0]] constexpr for uninitialized_default_construct
+
+Send
+  "[[P3369R0]] constexpr for uninitialized_default_construct"
+  to Library Working Group for C++26.
+
+
+### [[P3399R0]] Adjusting Electronic Polls to a Hybrid Workflow
+
+Approve
+  "[[P3399R0]] Adjusting Electronic Polls to a Hybrid Workflow"
+  and apply the change to the process of Library Evolution Working Group.
+
+
+<pre class=biblio>
+{
+  "P3468R0": {
+    "title": "2024-10 Library Evolution Poll Outcomes",
+    "authors": [
+      "Inbal Levi",
+      "Ben Craig",
+      "Fabio Fracassi",
+      "Billy Baker",
+      "Nevin Liber",
+      "Corentin Jabot"
+    ],
+    "href": "https://wg21.link/p3468r0",
+    "date": "15 November 2024"
+  },
+  "P3355R1": {
+    "title": "Fix submdspan for C++26",
+    "authors": [
+      "Mark Hoemmen"
+    ],
+    "href": "https://wg21.link/p3355r1",
+    "date": "15 October 2024"
+  },
+  "P3399R0": {
+    "title": "Adjusting Electronic Polls to a Hybrid Workflow",
+    "authors": [
+      "Inbal Levi",
+      "Fabio Fracassi",
+      "Corentin Jabot",
+      "Nevin Liber",
+      "Robert Leahy",
+      "Khalil Estell"
+    ],
+    "href": "https://wg21.link/p3399r0",
+    "date": "15 November 2024"
+  }
+}
+</pre>
