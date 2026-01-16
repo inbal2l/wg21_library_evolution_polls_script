@@ -1,7 +1,7 @@
 
 <pre class='metadata'>
-Title: 2025-10 Library Evolution Polls
-Shortname: P3872
+Title: 2026-01 Library Evolution Polls
+Shortname: P3965
 Revision: 0
 Status: P
 Group: WG21
@@ -14,8 +14,8 @@ Editor: Corentin Jabot - Library Mailing List Review Manager, corentin.jabot@gma
 
 Audience: WG21
 
-URL: https://wg21.link/P3872
-!Source: <a href="https://github.com/inbal2l/wg21_library_evolution_polls_script/blob/main/2025_10_library_evolution_polls.bs">GitHub</a>
+URL: https://wg21.link/P3965
+!Source: <a href="https://github.com/inbal2l/wg21_library_evolution_polls_script/blob/main/2026_01_library_evolution_polls.bs">GitHub</a>
 Metadata Order: Editor, Source, Project, Audience
 Markup Shorthands: markdown yes
 Toggle Diffs: no
@@ -27,7 +27,7 @@ Default Biblio Display: direct
 # Introduction # {#introduction}
 
 This paper contains the decision polls that the C++ Library Evolution group
-  will take in October 2025.
+  will take in January 2026.
 
 # Voting # {#voting}
 
@@ -42,7 +42,7 @@ If you do not, please choose to not participate in the poll.
 
 ## How to Vote ## {#how-to-vote}
 
- <font size="5"><b><a href="https://documents.isocpp.org/index.php/apps/forms/twLkPiBHgZeDPWzH"> Vote here </a></b></font>
+ <font size="5"><b><a href="https://documents.isocpp.org/index.php/apps/forms/9mp4QcGFpkWttiaT"> Vote here </a></b></font>
 <br/>
 
 A documents.isocpp.org account is necessary to vote.
@@ -66,10 +66,10 @@ If you need to change how you voted or have any questions or issues about
 
 ## Voting Timeline ## {#voting-timeline}
 
-- 2025-10-05: Draft polls distributed to chairs.
-- 2025-10-06: Start of the polling period.
-- 2025-11-01: End of the polling period.
-- 2025-11-05: Results and summarized comments are shared in the follow-up paper [[P3873R0]].
+- 2026-01-15: Draft polls distributed to chairs.
+- 2026-01-16: Start of the polling period.
+- 2026-02-01: End of the polling period.
+- 2026-02-10: Results and summarized comments are shared in the follow-up paper [[P3966R0]].
 
 # Poll Structure # {#poll-structure}
 
@@ -116,25 +116,40 @@ If you need to see how you voted, change how you voted, or have any questions
 ## Polls ## {#polls}
 
 
-### [[P3774R1]] Rename std::nontype, and make it broadly useful
+### [[P3505R2]] Fix the default floating-point representation in std::format
 
 Send
-  "[[P3774R1]] Rename std::nontype, and make it broadly useful"
-  to Library Working Group as a DR (fix) for C++26.
+  "[[P3505R2]] Fix the default floating-point representation in std::format"
+  to Library Working Group for C++29 (with a recommendation for a DR).
 
 
-### [[P3798R1]] The unexpected in std::expected
+### [[P3826R3]] Fix or Remove Sender Algorithm Customization
 
-Send
-  "[[P3798R1]] The unexpected in std::expected"
-  to Library Working Group for C++29.
+Apply the resolution in
+  "[[P3826R3]] Fix or Remove Sender Algorithm Customization"
+  to resolve the NB comments: US 207-328, FI-331, CA-358, FR-031-319, US 202-326, and send 
+  to Library Working Group for C++26.
 
+### [[P3450R0]] Extend std::is_within_lifetime
+
+Apply the resolution in
+  "[[P3450R0]] Extend std::is_within_lifetime"
+  to resolve the NB comment: US 82-145, and send 
+  to Library Working Group for C++26.
+
+
+  ### [[P3739R2]] Standard Library Hardening - using std::optional<T&>
+
+Apply the resolution in
+  "[[P3739R2]] Standard Library Hardening - using std::optional<T&>"
+  to resolve the NB comment: US 90-197, and send 
+  to Library Working Group for C++26.
 
 
 <pre class=biblio>
 {
   "P3873R0": {
-    "title": "2025-10 Library Evolution Poll Outcomes",
+    "title": "2026-01 Library Evolution Poll Outcomes",
     "authors": [
       "Inbal Levi",
       "Fabio Fracassi",
@@ -143,17 +158,8 @@ Send
       "Nevin Liber",
       "Corentin Jabot"
     ],
-    "href": "https://wg21.link/P3873r0",
-    "date": "05 November 2025"
-  },
-  "P3798R1": {
-    "title": "The unexpected in std::expected ",
-    "authors": [
-      "Alex Kremer",
-      "Ayaz Salikhov"
-    ],
-    "href": "https://wg21.link/P3798r1",
-    "date": "01 August 2025"
+    "href": "https://wg21.link/P3966r0",
+    "date": "16 February 2026"
   }
 }
 </pre>
